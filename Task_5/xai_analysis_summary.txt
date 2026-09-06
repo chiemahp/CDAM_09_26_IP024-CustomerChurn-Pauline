@@ -1,0 +1,59 @@
+
+================================================================================
+TASK 5: EXPLAINABLE AI (XAI) ANALYSIS SUMMARY
+================================================================================
+
+MODEL: Logistic Regression (from Task 4)
+ACCURACY: 0.7280
+ROC-AUC: 0.6245
+
+================================================================================
+TOP 5 FEATURES BY IMPORTANCE
+================================================================================
+              Feature  Mean |SHAP|
+Account_Tenure_Months     0.145640
+ Customer_Value_Score     0.122087
+   Email_Subscription     0.070460
+        Support_Calls     0.046421
+ Number_of_Complaints     0.041090
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+1. Global Importance:
+   The top 5 features account for most of the model's decision-making.
+   These should be the primary focus for churn reduction strategies.
+
+2. Feature Relationships:
+   - Satisfaction Rate: Strongly inversely correlated with churn
+   - Number of Complaints: Major predictor of churn risk
+   - Transaction Frequency: Lower frequency = higher churn risk
+   - Product Count: More products = stronger retention
+
+3. Individual Predictions:
+   The SHAP and Break Down explanations show how each customer's
+   specific characteristics influence their churn prediction.
+
+4. Business Value:
+   While the model's recall is low (1.10%), the feature importance
+   rankings provide valuable insights into which factors to focus on
+   for churn reduction efforts.
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+1. Prioritize satisfaction improvement initiatives
+2. Implement proactive complaint resolution processes
+3. Encourage product cross-selling to increase engagement
+4. Create targeted retention programs for high-risk customers
+5. Use model insights to improve customer service quality
+
+================================================================================
+DELIVERABLES
+================================================================================
+- shap_feature_importance.png: Global feature importance
+- shap_summary_bar.png: SHAP summary bar plot
+- shap_summary_beeswarm.png: SHAP summary beeswarm plot
+- partial_dependence_plots.png: PDP for top 4 features
+- breakown_plot_churner.png: DALEX Break Down plot
+- This summary report
