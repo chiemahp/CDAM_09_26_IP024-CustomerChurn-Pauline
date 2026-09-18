@@ -23,7 +23,7 @@ Open the local address printed by Streamlit (normally `http://localhost:8501`). 
 
 ## Live application link
 
-Pending publication: deployment requires the project owner's GitHub/Streamlit account authorization. Once published, replace this line with the generated public Streamlit URL.
+Streamlit App:(https://r2wfipdar6ppynqshdz7kc.streamlit.app/)
 
 ## Notes
 
