@@ -19,7 +19,7 @@ Open the local address printed by Streamlit (normally `http://localhost:8501`). 
 1. Create a GitHub repository containing this project, including the `deployment` directory and `wrangled_customer_data.csv`.
 2. Run `python deployment/build_model.py` and commit the generated `deployment/churn_model_bundle.joblib` file, or configure the host's build command to run it before starting the app.
 3. In [Streamlit Community Cloud](https://share.streamlit.io/), select **New app**, choose the repository and branch, and set the main file path to `deployment/app.py`.
-4. Deploy and paste the generated public `https://...streamlit.app` URL below.
+4. Deployed app: (https://r2wfipdar6ppynqshdz7kc.streamlit.app/)
 
 ## Live application link
 
