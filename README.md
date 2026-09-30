@@ -50,6 +50,7 @@ Packaged preprocessing + model into a reusable bundle
 Streamlit app created for real-time predictions, probabilities, risk categories, and SHAP explanations.
 
 Deployed App:(https://r2wfipdar6ppynqshdz7kc.streamlit.app/)
+Final Report:https://docs.google.com/document/d/1rFKazw0Cxezr6lRmKie1ikUHfZpik1Tr-cmA7seeDI4/edit?usp=sharing
 
 ## 📈 Results
 Best Model: Logistic Regression
