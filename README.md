@@ -43,7 +43,7 @@ Logistic Regression chosen for best ROC-AUC (0.6245) and interpretability
 
 Explainability tools: SHAP, DALEX, partial dependence plots
 
-## Deployment
+## Deployment & Final Report
 
 Packaged preprocessing + model into a reusable bundle
 
